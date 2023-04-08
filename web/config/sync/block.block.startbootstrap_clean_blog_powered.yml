@@ -1,0 +1,22 @@
+uuid: 8759a242-2163-4f0a-9c2d-b3d2fcafbec6
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - startbootstrap_clean_blog
+_core:
+  default_config_hash: eYL19CLDyinGTWYQfBD1DswWzglEotE_kHnHx3AxTXM
+id: startbootstrap_clean_blog_powered
+theme: startbootstrap_clean_blog
+region: top_menu
+weight: -6
+provider: null
+plugin: system_powered_by_block
+settings:
+  id: system_powered_by_block
+  label: 'Powered by Drupal'
+  label_display: '0'
+  provider: system
+visibility: {  }

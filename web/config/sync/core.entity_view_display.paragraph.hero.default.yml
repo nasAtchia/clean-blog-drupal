@@ -7,6 +7,8 @@ dependencies:
     - field.field.paragraph.hero.field_media
     - field.field.paragraph.hero.field_title
     - paragraphs.paragraphs_type.hero
+  module:
+    - media
 id: paragraph.hero.default
 targetEntityType: paragraph
 bundle: hero
@@ -21,11 +23,13 @@ content:
     weight: 0
     region: content
   field_media:
-    type: entity_reference_entity_view
+    type: media_thumbnail
     label: hidden
     settings:
-      view_mode: default
-      link: false
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
     third_party_settings: {  }
     weight: 2
     region: content

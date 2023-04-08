@@ -78,4 +78,5 @@ module:
 theme:
   olivero: 0
   claro: 0
+  startbootstrap_clean_blog: 0
 profile: standard

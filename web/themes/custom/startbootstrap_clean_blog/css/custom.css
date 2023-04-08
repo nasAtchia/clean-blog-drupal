@@ -1,0 +1,104 @@
+/*--------------------------------------------------------------
+# Navigations
+--------------------------------------------------------------*/
+#block-startbootstrap-clean-blog-main-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1030;
+  border-bottom: 1px solid #dee2e6;
+  background-color: #fff;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#block-startbootstrap-clean-blog-main-menu .navbar-brand {
+  font-weight: 800;
+}
+#block-startbootstrap-clean-blog-main-menu .navbar-toggler {
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 0.75rem;
+  text-transform: uppercase;
+}
+#block-startbootstrap-clean-blog-main-menu .navbar-nav > li.nav-item > a.nav-link {
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.0625em;
+  text-transform: uppercase;
+}
+@media (min-width: 992px) {
+  #block-startbootstrap-clean-blog-main-menu {
+    border-bottom: 1px solid transparent;
+    background: transparent;
+  }
+  #block-startbootstrap-clean-blog-main-menu .navbar-brand {
+    color: #fff;
+  }
+  #block-startbootstrap-clean-blog-main-menu .navbar-brand:focus, #block-startbootstrap-clean-blog-main-menu .navbar-brand:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+  #block-startbootstrap-clean-blog-main-menu .navbar-nav > li.nav-item > a.nav-link {
+    color: #fff;
+  }
+  #block-startbootstrap-clean-blog-main-menu .navbar-nav > li.nav-item > a.nav-link:focus, #block-startbootstrap-clean-blog-main-menu .navbar-nav > li.nav-item > a.nav-link:hover {
+    color: rgba(255, 255, 255, 0.8);
+  }
+}
+@media (min-width: 992px) {
+  #block-startbootstrap-clean-blog-main-menu {
+    transition: background-color 0.2s;
+    /* Force Hardware Acceleration in WebKit */
+    transform: translate3d(0, 0, 0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+  }
+  #block-startbootstrap-clean-blog-main-menu.is-fixed {
+    /* when the user scrolls down, we hide the header right above the viewport */
+    position: fixed;
+    top: -83px;
+    transition: transform 0.2s;
+    border-bottom: 1px solid white;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+  #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-brand {
+    color: #212529;
+  }
+  #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-brand:focus, #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-brand:hover {
+    color: #0085A1;
+  }
+  #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-nav > li.nav-item > a {
+    color: #212529;
+  }
+  #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-nav > li.nav-item > a:focus, #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-nav > li.nav-item > a:hover {
+    color: #0085A1;
+  }
+  #block-startbootstrap-clean-blog-main-menu.is-visible {
+    /* if the user changes the scrolling direction, we show the header */
+    transform: translate3d(0, 100%, 0);
+  }
+}
+
+/*--------------------------------------------------------------
+# Content
+--------------------------------------------------------------*/
+.region--content article h2 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  margin-top: 3.75rem;
+}
+
+.region--content article blockquote {
+  margin-bottom: 1rem;
+  font-size: 1.25rem;
+}
+
+.region--content article figcaption em {
+  font-size: 0.875rem;
+  font-style: italic;
+  display: block;
+  margin: 0;
+  padding: 0.625rem;
+  text-align: center;
+  --bs-text-opacity: 1;
+  color: #6c757d !important;
+}

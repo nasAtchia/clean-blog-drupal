@@ -1,0 +1,22 @@
+uuid: 0c5697db-2834-4428-8a44-f71174f2c391
+langcode: en
+status: true
+dependencies:
+  module:
+    - help
+  theme:
+    - startbootstrap_clean_blog
+_core:
+  default_config_hash: VfPFqqxfkomud5CO8DUijw85QIl9GIxh_nIxLOYESxg
+id: startbootstrap_clean_blog_help
+theme: startbootstrap_clean_blog
+region: content_above
+weight: -6
+provider: null
+plugin: help_block
+settings:
+  id: help_block
+  label: Help
+  label_display: '0'
+  provider: help
+visibility: {  }

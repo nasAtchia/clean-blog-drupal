@@ -1,0 +1,17 @@
+name: Clean Blog
+type: theme
+description: '<p>A clean, Bootstrap blog theme ready to hook into your favorite CMS or blogging platform.</p>'
+core_version_requirement: ^8 || ^9
+libraries:
+  - startbootstrap_clean_blog/global-styling
+  - startbootstrap_clean_blog/global-scripts
+base theme: false
+regions:
+  top_menu: 'Top menu'
+  primary_menu: 'Primary menu'
+  header: Header
+  highlighted: Highlighted
+  content_above: Content Above
+  content: Content
+  content_below: 'Content Below'
+  footer: 'Footer'

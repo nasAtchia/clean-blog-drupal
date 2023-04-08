@@ -1,0 +1,23 @@
+uuid: a30b3bb7-c1c4-441f-b055-dbe1e10fb23f
+langcode: en
+status: false
+dependencies:
+  module:
+    - node
+  theme:
+    - startbootstrap_clean_blog
+_core:
+  default_config_hash: 0gq3VPg-_UM69FCCWurLFIrrnIjC2HLKhwo9iQNtcUo
+id: startbootstrap_clean_blog_syndicate
+theme: startbootstrap_clean_blog
+region: top_menu
+weight: -5
+provider: null
+plugin: node_syndicate_block
+settings:
+  id: node_syndicate_block
+  label: 'RSS feed'
+  label_display: '0'
+  provider: node
+  block_count: 10
+visibility: {  }

@@ -1,0 +1,20 @@
+uuid: 970c1aab-88cc-4a0b-96ea-0673d0c2e3dd
+langcode: en
+status: false
+dependencies:
+  theme:
+    - startbootstrap_clean_blog
+_core:
+  default_config_hash: 6aOgWsNTXjqrDm98TXSAjP6qd2nCijD1xw45MrnbK-Y
+id: startbootstrap_clean_blog_page_title
+theme: startbootstrap_clean_blog
+region: content_above
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  label_display: '0'
+  provider: core
+visibility: {  }

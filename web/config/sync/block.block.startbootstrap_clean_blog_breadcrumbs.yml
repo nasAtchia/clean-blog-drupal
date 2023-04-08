@@ -1,0 +1,22 @@
+uuid: dcb4234f-5b06-446b-ae72-120541fa546f
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - startbootstrap_clean_blog
+_core:
+  default_config_hash: VhBzWb7lMRtIOg9G7VSw_0uopi-7zXeHq4vXqqV1HFE
+id: startbootstrap_clean_blog_breadcrumbs
+theme: startbootstrap_clean_blog
+region: content_above
+weight: -5
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  label_display: '0'
+  provider: system
+visibility: {  }

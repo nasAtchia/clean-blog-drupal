@@ -1,0 +1,25 @@
+uuid: e3b08674-e266-4ec8-b6d7-7e0c5fb6720b
+langcode: en
+status: false
+dependencies:
+  module:
+    - system
+  theme:
+    - startbootstrap_clean_blog
+_core:
+  default_config_hash: n_nlgjggHVfQt2H__zvLOKB2YtjPDbQ5tHijF9LE1aM
+id: startbootstrap_clean_blog_site_branding
+theme: startbootstrap_clean_blog
+region: header
+weight: 0
+provider: null
+plugin: system_branding_block
+settings:
+  id: system_branding_block
+  label: 'Site branding'
+  label_display: '0'
+  provider: system
+  use_site_logo: true
+  use_site_name: true
+  use_site_slogan: false
+visibility: {  }
