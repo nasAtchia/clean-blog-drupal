@@ -1,0 +1,15 @@
+uuid: 2f24f317-c39a-43d7-8d57-a046abc026fe
+langcode: en
+status: true
+dependencies: {  }
+id: live
+label: Live
+description: 'Live environment specific configuration.'
+weight: 0
+folder: ./config/splits/live
+module: {  }
+theme: {  }
+blacklist: {  }
+graylist: {  }
+graylist_dependents: true
+graylist_skip_equal: true

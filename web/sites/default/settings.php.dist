@@ -828,3 +828,9 @@ $databases['default']['default'] = array (
   ],
 );
 $settings['config_sync_directory'] = './config/sync';
+
+/**
+ * Configuration Split settings.
+ */
+$config['config_split.config_split.dev']['status'] = 1;
+$config['config_split.config_split.live']['status'] = 0;
