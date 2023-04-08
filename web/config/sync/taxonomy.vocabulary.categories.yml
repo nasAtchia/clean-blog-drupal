@@ -1,0 +1,8 @@
+uuid: 57b70967-03ff-47d4-98ed-408277b19a57
+langcode: en
+status: true
+dependencies: {  }
+name: Categories
+vid: categories
+description: 'Use categories to group articles on similar topics.'
+weight: 0
