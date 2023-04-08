@@ -90,7 +90,8 @@
           <footer>
             {{ author_picture }}
             <div{{ author_attributes }}>
-              {% trans %}Submitted by {{ author_name }} on {{ date }}{% endtrans %}
+              {% set created_date = node.getCreatedTime|format_date('olivero_medium') %}
+              {% trans %}Posted by {{ author_name }} on {{ created_date }}{% endtrans %}
               {{ metadata }}
             </div>
           </footer>
