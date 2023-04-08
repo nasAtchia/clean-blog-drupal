@@ -5,6 +5,9 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.page.body
+    - field.field.node.page.field_hero
+    - field.field.node.page.field_seo
+    - field.field.node.page.field_webform
     - node.type.page
   module:
     - text
@@ -28,4 +31,7 @@ content:
     weight: 101
     region: content
 hidden:
+  field_hero: true
+  field_seo: true
+  field_webform: true
   langcode: true

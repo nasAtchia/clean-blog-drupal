@@ -1,0 +1,21 @@
+uuid: 0b0292d2-be6c-4a63-ab97-f6d8ae888c88
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_seo
+    - node.type.page
+  module:
+    - metatag
+id: node.page.field_seo
+field_name: field_seo
+entity_type: node
+bundle: page
+label: SEO
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: metatag
