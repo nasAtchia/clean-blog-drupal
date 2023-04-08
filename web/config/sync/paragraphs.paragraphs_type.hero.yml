@@ -1,0 +1,10 @@
+uuid: 032e857d-4dcb-4904-a28d-aad06d42fd63
+langcode: en
+status: true
+dependencies: {  }
+id: hero
+label: Hero
+icon_uuid: null
+icon_default: null
+description: 'Add a hero section on your page.'
+behavior_plugins: {  }
