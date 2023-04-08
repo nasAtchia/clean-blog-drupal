@@ -11,7 +11,7 @@ third_party_settings:
     parent: 'main:'
 name: Homepage
 type: homepage
-description: 'Use homepage to customize the main page for your website.'
+description: 'Use <em>homepage</em> to customize the main page for your website.'
 help: ''
 new_revision: true
 preview_mode: 1
