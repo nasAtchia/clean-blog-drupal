@@ -3,7 +3,6 @@ langcode: en
 status: true
 dependencies:
   config:
-    - core.entity_view_display.comment.comment.default
     - field.field.node.article.body
     - field.field.node.article.comment
     - field.field.node.article.field_categories
@@ -12,7 +11,6 @@ dependencies:
     - field.field.node.article.field_tags
     - node.type.article
   module:
-    - comment
     - entity_reference_revisions
     - metatag
     - text
@@ -30,15 +28,6 @@ content:
     settings: {  }
     third_party_settings: {  }
     weight: 1
-    region: content
-  comment:
-    type: comment_default
-    label: above
-    settings:
-      view_mode: default
-      pager_id: 0
-    third_party_settings: {  }
-    weight: 5
     region: content
   field_categories:
     type: entity_reference_label
@@ -62,7 +51,7 @@ content:
     label: above
     settings: {  }
     third_party_settings: {  }
-    weight: 6
+    weight: 5
     region: content
   field_tags:
     type: entity_reference_label
@@ -78,4 +67,5 @@ content:
     weight: 2
     region: content
 hidden:
+  comment: true
   langcode: true
