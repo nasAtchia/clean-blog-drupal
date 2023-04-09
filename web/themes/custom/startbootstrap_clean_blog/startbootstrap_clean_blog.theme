@@ -5,7 +5,8 @@
  * Functions to support theming in the Clean Blog theme.
  */
 
-use Drupal\media\Entity\Media;
+use Drupal\file\FileInterface;
+use Drupal\media\MediaInterface;
 use Drupal\node\NodeInterface;
 
 /**
@@ -19,54 +20,39 @@ function startbootstrap_clean_blog_preprocess_page(array &$variables): void {
   ];
 
   // By default, set current page title as title for Hero.
-  if ($route = \Drupal::routeMatch()->getRouteObject()) {
+  $route = \Drupal::routeMatch()->getRouteObject();
+  if ($route) {
     $hero['title'] = \Drupal::service('title_resolver')->getTitle(\Drupal::request(), $route);
   }
 
-  /**
-   * Get hero content for node.
-   *
-   * @var Drupal\node\NodeInterface $node
-   */
-  if ($node = \Drupal::routeMatch()->getParameter('node')) {
-    if ($node instanceof NodeInterface) {
-      if ($node->hasField('field_hero')) {
-        // Field Hero is a paragraph.
-        $hero_field_items = $node->get('field_hero')->referencedEntities();
+  $node = \Drupal::routeMatch()->getParameter('node');
+  if ($node instanceof NodeInterface && $node->hasField('field_hero')) {
+    // Field Hero is a paragraph.
+    $hero_field_items = $node->get('field_hero')->referencedEntities();
 
-        if ($hero_field_items) {
-          /** @var \Drupal\paragraphs\ParagraphInterface $hero_field_item */
-          $hero_field_item = reset($hero_field_items);
+    if ($hero_field_items) {
+      $hero_field_item = reset($hero_field_items);
+      // Caption.
+      if ($hero_field_item->hasField('field_caption')) {
+        $hero['caption'] = $hero_field_item->get('field_caption')->value;
+      }
 
-          // Caption.
-          if ($hero_field_item->hasField('field_caption')) {
-            $hero['caption'] = $hero_field_item->get('field_caption')->getString();
-          }
+      // Background Image.
+      if ($hero_field_item->hasField('field_media')) {
+        $media = $hero_field_item->get('field_media')->entity;
 
-          if ($hero_field_item->hasField('field_media')) {
-            /**
-             * Load the media entity.
-             *
-             * @var \Drupal\media\MediaInterface $media
-             */
-            $media = Media::load($hero_field_item->get('field_media')->getString());
+        if ($media instanceof MediaInterface) {
+          $file = $media->get('field_media_image')->entity;
 
-            /**
-             * Get the file entity from the media entity.
-             *
-             * @var \Drupal\file\FileInterface $file
-             */
-            $file = $media->get('field_media_image')->entity;
-
-            // Get the URL of the file entity.
+          if ($file instanceof FileInterface) {
             $hero['background_image'] = \Drupal::service('file_url_generator')->generateString($file->getFileUri());
           }
-
-          // Title.
-          if ($hero_field_item->hasField('field_title')) {
-            $hero['title'] = $hero_field_item->get('field_title')->getString();
-          }
         }
+      }
+
+      // Title.
+      if ($hero_field_item->hasField('field_title')) {
+        $hero['title'] = $hero_field_item->get('field_title')->value;
       }
     }
   }
