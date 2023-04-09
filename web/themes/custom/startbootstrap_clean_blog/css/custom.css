@@ -34,13 +34,15 @@
   #block-startbootstrap-clean-blog-main-menu .navbar-brand {
     color: #fff;
   }
-  #block-startbootstrap-clean-blog-main-menu .navbar-brand:focus, #block-startbootstrap-clean-blog-main-menu .navbar-brand:hover {
+  #block-startbootstrap-clean-blog-main-menu .navbar-brand:focus,
+  #block-startbootstrap-clean-blog-main-menu .navbar-brand:hover {
     color: rgba(255, 255, 255, 0.8);
   }
   #block-startbootstrap-clean-blog-main-menu .navbar-nav > li.nav-item > a.nav-link {
     color: #fff;
   }
-  #block-startbootstrap-clean-blog-main-menu .navbar-nav > li.nav-item > a.nav-link:focus, #block-startbootstrap-clean-blog-main-menu .navbar-nav > li.nav-item > a.nav-link:hover {
+  #block-startbootstrap-clean-blog-main-menu .navbar-nav > li.nav-item > a.nav-link:focus,
+  #block-startbootstrap-clean-blog-main-menu .navbar-nav > li.nav-item > a.nav-link:hover {
     color: rgba(255, 255, 255, 0.8);
   }
 }
@@ -63,14 +65,16 @@
   #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-brand {
     color: #212529;
   }
-  #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-brand:focus, #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-brand:hover {
-    color: #0085A1;
+  #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-brand:focus,
+  #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-brand:hover {
+    color: #0085a1;
   }
   #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-nav > li.nav-item > a {
     color: #212529;
   }
-  #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-nav > li.nav-item > a:focus, #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-nav > li.nav-item > a:hover {
-    color: #0085A1;
+  #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-nav > li.nav-item > a:focus,
+  #block-startbootstrap-clean-blog-main-menu.is-fixed .navbar-nav > li.nav-item > a:hover {
+    color: #0085a1;
   }
   #block-startbootstrap-clean-blog-main-menu.is-visible {
     /* if the user changes the scrolling direction, we show the header */
