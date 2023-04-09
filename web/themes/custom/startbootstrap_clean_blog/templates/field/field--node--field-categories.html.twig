@@ -1,7 +1,7 @@
 {#
 /**
  * @file
- * Theme implementation for a field.
+ * Default theme implementation for a field.
  *
  * To override output, copy the "field.html.twig" from the templates directory
  * to your theme's directory and customize it, just like customizing other
@@ -40,16 +40,16 @@
 #}
 {%
   set title_classes = [
-    label_display == 'visually_hidden' ? 'visually-hidden',
-  ]
+  label_display == 'visually_hidden' ? 'visually-hidden',
+]
 %}
 {% if not label_hidden %}
   <h3{{ title_attributes.addClass(title_classes) }}>{{ label }}</h3>
-  <ul class="list-inline field__items field--taxonomy_term__items">
-    {% for item in items %}
-      <li{{ item.attributes.addClass('list-inline-item') }}>
-        <span class="badge rounded-pill bg-dark">{{ item.content }}</span>
-      </li>
-    {% endfor %}
-  </ul>
 {% endif %}
+<ul class="list-inline field__items field--taxonomy_term__items">
+  {% for item in items %}
+    <li{{ item.attributes.addClass('list-inline-item') }}>
+      <span class="badge rounded-pill bg-dark">{{ item.content }}</span>
+    </li>
+  {% endfor %}
+</ul>
