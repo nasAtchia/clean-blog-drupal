@@ -59,12 +59,45 @@
       <div id="main" class="layout-main">
         <div class="main-content">
           <a id="main-content" tabindex="-1"></a>
-          <div class="main-content__container">
-            {{ page.highlighted }}
+          <div class="main-content__container mb-4">
+            {# Hero #}
+            {% if page.hero %}
+              {% set background_image = page.hero.background_image ? 'background-image: url(' ~ page.hero.background_image ~ ');' : '' %}
+
+              <!-- Hero Content-->
+              <header class="masthead" style="{{ background_image }}">
+                <div class="container position-relative px-4 px-lg-5">
+                  <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                      <div class="heading">
+                        <h1>{{ page.hero.title }}</h1>
+                        {% if page.hero.caption %}
+                          <h2 class="subheading">{{ page.hero.caption }}</h2>
+                        {% endif %}
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </header>
+            {% endif %}
+
+            <div class="container px-4 px-lg-5">
+              <div class="row gx-4 gx-lg-5 justify-content-center">
+                <div class="col-md-10 col-lg-8 col-xl-7">
+                  {{ page.highlighted }}
+                </div>
+              </div>
+            </div>
 
             <main role="main">
-              {{ page.content_above }}
-              {{ page.content }}
+              <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                  <div class="col-md-10 col-lg-8 col-xl-7">
+                    {{ page.content_above }}
+                    {{ page.content }}
+                  </div>
+                </div>
+              </div>
             </main>
 
             {{ page.content_below }}
