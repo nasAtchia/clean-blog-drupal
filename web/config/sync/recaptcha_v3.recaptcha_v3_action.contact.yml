@@ -1,0 +1,8 @@
+uuid: 2f0eeb9e-5c28-4bc1-902a-b0c11fb1350f
+langcode: en
+status: true
+dependencies: {  }
+id: contact
+label: Contact
+threshold: 0.5
+challenge: default
