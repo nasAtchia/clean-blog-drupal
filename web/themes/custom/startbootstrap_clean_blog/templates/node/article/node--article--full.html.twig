@@ -87,14 +87,14 @@
         {{ title_suffix }}
 
         {% if display_submitted %}
-          <footer>
+          <div>
             {{ author_picture }}
             <div{{ author_attributes }}>
               {% set created_date = node.getCreatedTime|format_date('olivero_medium') %}
               {% trans %}Posted by {{ author_name }} on {{ created_date }}{% endtrans %}
               {{ metadata }}
             </div>
-          </footer>
+          </div>
         {% endif %}
 
         <div{{ content_attributes }}>

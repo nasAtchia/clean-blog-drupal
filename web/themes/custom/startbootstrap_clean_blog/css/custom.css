@@ -102,3 +102,11 @@
   --bs-text-opacity: 1;
   color: #6c757d !important;
 }
+
+.region--content article .field--taxonomy_term__items a {
+  color: #fff;
+}
+
+.region--content article .field--taxonomy_term__items a:hover {
+  text-decoration: underline;
+}
