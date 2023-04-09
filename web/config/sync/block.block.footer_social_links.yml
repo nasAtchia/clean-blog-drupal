@@ -1,0 +1,25 @@
+uuid: c6c039dc-6b75-4c65-9b72-f0b15742f6d1
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:social_links:11e4a98a-3bed-4847-a63d-35960585b02f'
+  module:
+    - block_content
+  theme:
+    - startbootstrap_clean_blog
+id: footer_social_links
+theme: startbootstrap_clean_blog
+region: footer
+weight: -8
+provider: null
+plugin: 'block_content:11e4a98a-3bed-4847-a63d-35960585b02f'
+settings:
+  id: 'block_content:11e4a98a-3bed-4847-a63d-35960585b02f'
+  label: 'Footer Social Links'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

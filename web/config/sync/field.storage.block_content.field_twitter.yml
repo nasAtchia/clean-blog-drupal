@@ -1,0 +1,23 @@
+uuid: 1b77e87b-dc7e-4870-9b9a-20dbe3931086
+langcode: en
+status: true
+dependencies:
+  module:
+    - block_content
+    - field_permissions
+    - link
+third_party_settings:
+  field_permissions:
+    permission_type: public
+id: block_content.field_twitter
+field_name: field_twitter
+entity_type: block_content
+type: link
+settings: {  }
+module: link
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

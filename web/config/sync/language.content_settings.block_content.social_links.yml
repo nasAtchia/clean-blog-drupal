@@ -1,0 +1,16 @@
+uuid: cafe9de1-a02f-410b-a04b-fee133889d37
+langcode: en
+status: true
+dependencies:
+  config:
+    - block_content.type.social_links
+  module:
+    - content_translation
+third_party_settings:
+  content_translation:
+    enabled: true
+id: block_content.social_links
+target_entity_type_id: block_content
+target_bundle: social_links
+default_langcode: site_default
+language_alterable: true

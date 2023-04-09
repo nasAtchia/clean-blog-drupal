@@ -1,0 +1,8 @@
+uuid: 23770fa4-7dc0-4923-912b-a41a53783f3e
+langcode: en
+status: true
+dependencies: {  }
+id: social_links
+label: 'Social Links'
+revision: 0
+description: 'Add social links in the footer section.'

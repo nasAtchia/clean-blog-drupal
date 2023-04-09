@@ -1,0 +1,8 @@
+uuid: acd803e6-8c82-48d0-a3fc-f609a84e047a
+langcode: en
+status: true
+dependencies: {  }
+id: copyright
+label: Copyright
+revision: 0
+description: 'Add a copyright text in the footer section.'

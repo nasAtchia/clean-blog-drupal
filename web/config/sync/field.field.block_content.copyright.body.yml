@@ -1,22 +1,20 @@
-uuid: b71b061c-b66b-4beb-a1f8-fba47e9ddae1
+uuid: 263656a3-162d-4cd7-902d-0fa79d7e5ef5
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.basic
+    - block_content.type.copyright
     - field.storage.block_content.body
   module:
     - text
-_core:
-  default_config_hash: foetbaMhlB6uLc2bn-PESvaPkbuDWj0MEjpQVwQiP-o
-id: block_content.basic.body
+id: block_content.copyright.body
 field_name: body
 entity_type: block_content
-bundle: basic
+bundle: copyright
 label: Body
 description: ''
 required: false
-translatable: false
+translatable: true
 default_value: {  }
 default_value_callback: ''
 settings:

@@ -1,0 +1,25 @@
+uuid: a976fab4-c8f4-42c7-aff9-3a2271dd9d88
+langcode: en
+status: true
+dependencies:
+  content:
+    - 'block_content:copyright:26b25745-d41c-4040-9b43-97d3bb7f3a23'
+  module:
+    - block_content
+  theme:
+    - startbootstrap_clean_blog
+id: footer_copyright
+theme: startbootstrap_clean_blog
+region: footer
+weight: -7
+provider: null
+plugin: 'block_content:26b25745-d41c-4040-9b43-97d3bb7f3a23'
+settings:
+  id: 'block_content:26b25745-d41c-4040-9b43-97d3bb7f3a23'
+  label: 'Footer Copyright'
+  label_display: '0'
+  provider: block_content
+  status: true
+  info: ''
+  view_mode: full
+visibility: {  }

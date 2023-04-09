@@ -1,17 +1,15 @@
-uuid: 5b001dad-48c2-45cd-a67f-21d913b1250c
+uuid: 6a4257e9-3971-4937-a849-89932fa41e4b
 langcode: en
 status: true
 dependencies:
   config:
-    - block_content.type.basic
-    - field.field.block_content.basic.body
+    - block_content.type.copyright
+    - field.field.block_content.copyright.body
   module:
     - text
-_core:
-  default_config_hash: hBNNDTFwakREOTa6GGMqN899Iyrii0hInwSJtQ7Kj30
-id: block_content.basic.default
+id: block_content.copyright.default
 targetEntityType: block_content
-bundle: basic
+bundle: copyright
 mode: default
 content:
   body:
