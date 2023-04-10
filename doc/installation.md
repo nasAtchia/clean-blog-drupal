@@ -42,4 +42,4 @@ $ vendor/drush/drush/drush cr
 
 #### Update your public files directory
 
-Extract and copy the latest **.tar.gz** file from the [resources](../resources) directory in the [/web/sites/default/files](../web/sites/default/files) directory.
+Extract and copy the latest **.tar.gz** file from the [resources](../resources) directory in the `/path/to/project/web/sites/default/files` directory.
