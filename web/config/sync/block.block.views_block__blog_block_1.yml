@@ -1,0 +1,29 @@
+uuid: 491ee121-a22a-4b1b-a03b-e54aa3f5a140
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.blog
+  module:
+    - system
+    - views
+  theme:
+    - startbootstrap_clean_blog
+id: views_block__blog_block_1
+theme: startbootstrap_clean_blog
+region: content
+weight: -7
+provider: null
+plugin: 'views_block:blog-block_1'
+settings:
+  id: 'views_block:blog-block_1'
+  label: ''
+  label_display: '0'
+  provider: views
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    negate: false
+    pages: '<front>'
