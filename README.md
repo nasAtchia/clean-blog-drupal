@@ -6,7 +6,7 @@ Drupal version: **9.5.7**
 
 ## Installation
 
-Please read the [Installation](docs/installation.md) guide.
+Please read the [Installation](doc/installation.md) guide.
 
 Once the installation has been completed, you can access the website via the following URL: [http://127.0.0.1/drupal-blog/web/](http://127.0.0.1/drupal-blog/web/).
 
