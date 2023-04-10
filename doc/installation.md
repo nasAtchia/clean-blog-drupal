@@ -20,7 +20,7 @@ $ git clone https://github.com/nasAtchia/drupal-blog.git
 
 #### Create your database
 
-Create your database on your MySQL server and import the latest ****.mysql.gz**** file from the [db](../docs/db) folder.
+Create your database on your MySQL server and import the latest ****.mysql.gz**** file from the [db](../db) folder.
 
 #### Configure your services.yml and settings.php file
 
@@ -42,4 +42,4 @@ $ vendor/drush/drush/drush cr
 
 #### Update your public files directory
 
-Extract and copy the latest **.tar.gz** file from the [docs/files](../docs/files) directory in the [/web/sites/default/files](../web/sites/default/files) directory.
+Extract and copy the latest **.tar.gz** file from the [resources](../resources) directory in the [/web/sites/default/files](../web/sites/default/files) directory.
