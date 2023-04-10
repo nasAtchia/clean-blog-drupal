@@ -840,3 +840,11 @@ $config['config_split.config_split.live']['status'] = false;
  */
 $config['recaptcha_v3.settings']['site_key'] = '';
 $config['recaptcha_v3.settings']['secret_key'] = '';
+
+/**
+ * SMTP settings.
+ */
+$config['smtp.settings']['smtp_host'] = '';
+$config['smtp.settings']['smtp_port'] = '';
+$config['smtp.settings']['smtp_username'] = '';
+$config['smtp.settings']['smtp_password'] = '';
