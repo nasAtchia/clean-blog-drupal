@@ -10,6 +10,16 @@ Please read the [Installation](doc/installation.md) guide.
 
 Once the installation has been completed, you can access the website via the following URL: `http://127.0.0.1/drupal-blog/web`.
 
+Login via the following URL `http://127.0.0.1/drupal-blog/user/login` in order to access the Drupal back office.
+You can use the following accounts:
+
+- Administrator:
+  - Username: admin
+  - Password: admin
+- Content editor:
+  - Username: contenteditor
+  - Password: contenteditor
+
 ## Development
 
 ### Coding Standards
