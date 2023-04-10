@@ -28,9 +28,9 @@ Copy the [services.yml.dist](../web/sites/default/services.yml.dist) file and re
 
 Copy the [settings.php.dist](../web/sites/default/settings.php.dist) file and rename to settings.php and update the configurations according to your environment.
 
-#### Composer and Drush configurations
+#### Composer and Drupal configurations
 
-In your terminal and the project root directory, run the following commands to install the project dependencies:
+In your terminal and the project root directory, run the following commands to install the project dependencies and sync your database and Drupal configurations:
 
 ```
 $ composer install
@@ -42,4 +42,4 @@ $ vendor/drush/drush/drush cr
 
 #### Update your public files directory
 
-Extract and copy the latest **.tar.gz** file from the [resources](../resources) directory in the `/path/to/project/web/sites/default/files` directory.
+Extract and copy the latest **.tar.gz** file from the [resources](../resources) directory in your `/path/to/project/web/sites/default/files` directory.
