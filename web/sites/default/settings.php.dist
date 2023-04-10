@@ -834,3 +834,9 @@ $settings['config_sync_directory'] = './config/sync';
  */
 $config['config_split.config_split.dev']['status'] = true;
 $config['config_split.config_split.live']['status'] = false;
+
+/**
+ * reCAPTCHA v3 settings.
+ */
+$config['recaptcha_v3.settings']['site_key'] = '';
+$config['recaptcha_v3.settings']['secret_key'] = '';
