@@ -136,3 +136,10 @@ header.masthead .heading h1 {
 .region--content article .field--taxonomy_term__items a:hover {
   text-decoration: underline;
 }
+
+.headline > .headline-meta {
+  font-size: 1.125rem;
+  font-style: italic;
+  margin-top: 0;
+  color: #6c757d;
+}

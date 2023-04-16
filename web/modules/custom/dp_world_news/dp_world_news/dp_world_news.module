@@ -1,0 +1,19 @@
+<?php
+
+/**
+ * @file
+ * Functions to add hooks for this module.
+ */
+
+/**
+ * Implements hook_theme().
+ */
+function dp_world_news_theme() {
+  return [
+    'dp_top_headlines' => [
+      'variables' => [
+        'articles' => [],
+      ],
+    ],
+  ];
+}

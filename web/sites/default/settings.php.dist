@@ -848,3 +848,9 @@ $config['smtp.settings']['smtp_host'] = '';
 $config['smtp.settings']['smtp_port'] = '';
 $config['smtp.settings']['smtp_username'] = '';
 $config['smtp.settings']['smtp_password'] = '';
+
+/**
+ * World News settings.
+ */
+$config['dp_world_news.settings']['news_api']['api_key'] = '';
+$config['dp_world_news.settings']['news_data']['api_key'] = '';

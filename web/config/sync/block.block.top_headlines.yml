@@ -1,0 +1,22 @@
+uuid: 551c9beb-f26c-49d6-a6ee-531cc56a7999
+langcode: en
+status: true
+dependencies:
+  module:
+    - dp_world_news
+  theme:
+    - startbootstrap_clean_blog
+id: top_headlines
+theme: startbootstrap_clean_blog
+region: content_below
+weight: 0
+provider: null
+plugin: dp_top_headlines
+settings:
+  id: dp_top_headlines
+  label: 'Happening around the world'
+  label_display: visible
+  provider: dp_world_news
+  cache_max_age: '3600'
+  news_provider: news_api
+visibility: {  }
