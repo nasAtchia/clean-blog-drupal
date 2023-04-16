@@ -1,16 +1,18 @@
-# Drupal Blog #
+# Clean Blog #
 
 Blog website on Drupal.
 
 Drupal version: **9.5.7**
 
+Theme: [Clean Blog](https://startbootstrap.com/theme/clean-blog)
+
 ## Installation
 
 Please read the [Installation](doc/installation.md) guide.
 
-Once the installation has been completed, you can access the website via the following URL: `http://127.0.0.1/drupal-blog/web`.
+Once the installation has been completed, you can access the website via the following URL: `http://127.0.0.1/clean-blog-drupal/web`.
 
-Login via the following URL `http://127.0.0.1/drupal-blog/user/login` in order to access the Drupal back office.
+Login via the following URL `http://127.0.0.1/clean-blog-drupal/user/login` in order to access the Drupal back office.
 You can use the following accounts:
 
 - Administrator:

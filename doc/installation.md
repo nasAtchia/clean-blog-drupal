@@ -15,7 +15,7 @@ Server requirements:
 Run the command below to clone the project from Git.
 
 ```
-$ git clone https://github.com/nasAtchia/drupal-blog.git
+$ git clone https://github.com/nasAtchia/clean-blog-drupal.git
 ```
 
 #### Create your database
