@@ -1,6 +1,6 @@
 # Clean Blog #
 
-Blog website on Drupal.
+An example website on Drupal showcasing a blog.
 
 Drupal version: **9.5.7**
 
