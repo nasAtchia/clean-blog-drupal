@@ -32,7 +32,7 @@
         "drupal/field_permissions": "^1.2",
         "drupal/mailsystem": "^4.4",
         "drupal/metatag": "^1.22",
-        "drupal/onlyone": "^1.10",
+        "drupal/onlyone": "^2.0",
         "drupal/paragraphs": "^1.15",
         "drupal/pathauto": "^1.11",
         "drupal/quick_node_clone": "^1.16",

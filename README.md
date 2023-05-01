@@ -2,7 +2,7 @@
 
 An example website on Drupal showcasing a blog.
 
-Drupal version: **9.5.7**
+Drupal version: **9.5.8**
 
 Theme: [Clean Blog](https://startbootstrap.com/theme/clean-blog)
 
