@@ -1,7 +1,7 @@
 name: Clean Blog
 type: theme
 description: '<p>A clean, Bootstrap blog theme ready to hook into your favorite CMS or blogging platform.</p>'
-core_version_requirement: ^8 || ^9
+core_version_requirement: ^8 || ^9 || ^10
 libraries:
   - startbootstrap_clean_blog/global-styling
   - startbootstrap_clean_blog/global-scripts

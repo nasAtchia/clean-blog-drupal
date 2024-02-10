@@ -16,6 +16,7 @@ dependencies:
     - comment
     - contextual
     - file
+    - help
     - media
     - node
     - path
@@ -35,6 +36,7 @@ permissions:
   - 'access content overview'
   - 'access contextual links'
   - 'access files overview'
+  - 'access help pages'
   - 'access media overview'
   - 'access toolbar'
   - 'access tour'
@@ -55,6 +57,7 @@ permissions:
   - 'delete own article content'
   - 'delete own audio media'
   - 'delete own document media'
+  - 'delete own files'
   - 'delete own image media'
   - 'delete own page content'
   - 'delete own remote_video media'

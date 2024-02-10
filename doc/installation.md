@@ -6,7 +6,7 @@ Server requirements:
 
 - Apache Version: 2.4.7+
 - MySQL Version: 5.7.8+
-- PHP Version: 8.0+
+- PHP Version: 8.1+
 - [Composer](https://getcomposer.org/) installed
 - Git installed
 
