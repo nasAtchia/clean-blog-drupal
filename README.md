@@ -35,7 +35,7 @@ $ ./vendor/bin/phpcs --standard=Drupal --extensions=php,module,inc,install,test,
 
 #### Automatically fix coding standards
 ```
-$ ./vendor/bin/phpcs --standard=Drupal --extensions=php,module,inc,install,test,profile,theme,css,info,txt,md,yml /path/to/drupal/custom_module_or_theme
+$ ./vendor/bin/phpcbf --standard=Drupal --extensions=php,module,inc,install,test,profile,theme,css,info,txt,md,yml /path/to/drupal/custom_module_or_theme
 ```
 
 For further information about the usage of PHP CodeSniffer, please see [PHP CodeSniffer - Command Line Usage](https://www.drupal.org/docs/contributed-modules/code-review-module/php-codesniffer-command-line-usage).
